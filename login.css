@@ -1,0 +1,79 @@
+*  {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.body { 
+    background: url('./pexels-photo-699953.jpeg') no-repeat;
+    background-size: cover;
+}
+.nav_bar {
+    background-color: blue;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    font-size: 2rem;
+   margin-right: 20px;
+   margin-top: 40px;
+   color: white;
+   float: right;
+}
+.nav_bar ul li a { 
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+.nav_bar ul li:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+login-form { 
+    width: 40px;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: red;
+}
+.login-form h1 { 
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.login-form p { 
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+.login-form input { 
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: 5px;
+}
+.login-form button { 
+    font-size: 20px;
+    font-weight: bold;
+    margin: 18px 0;
+    padding: 8px 13px;
+    width: 50%;
+    border-radius: 10px;
+    border: 5px;
+    color: blue;
+}
+.login-form button:hover { 
+    color: black;
+}
