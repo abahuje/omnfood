@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body  {
-    background-image: url('./reg.jpg') no-repeat;
+    background-image: url('/reg.jpg') no-repeat;
     background-size: cover;
     color: pink;
 }
@@ -15,6 +15,7 @@ body  {
     height: 16vh;
     display: flex;
     justify-content: space-between;
+    float: right;
 }
 .reg_bar ul {
     display: flex;
@@ -25,10 +26,12 @@ body  {
    margin-right: 20px;
    margin-top: 40px;
    color: white;
+   float: right;
 }
 .reg_bar ul li a { 
     color: white;
     text-decoration: none;
+    float: right;
 }
 .reg_bar ul li:hover {
     background-color: black;
